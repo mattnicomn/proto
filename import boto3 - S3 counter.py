@@ -12,3 +12,5 @@ def lamnda_handler(event, context)
       if object['Key'][-1] != '/':
         count += 1
   return("Number of files: ", count)
+
+#https://stackoverflow.com/questions/42673764/boto3-s3-get-files-without-getting-folders
